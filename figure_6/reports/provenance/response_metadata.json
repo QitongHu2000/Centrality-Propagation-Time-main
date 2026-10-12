@@ -1,0 +1,96 @@
+{
+  "seed": 20260527,
+  "python": "3.13.9",
+  "numpy": "2.3.5",
+  "scipy": "1.16.3",
+  "networkx": "3.5",
+  "platform": "macOS-26.4-arm64-arm-64bit-Mach-O",
+  "processor_architecture": "arm64",
+  "cpu_model": "not exposed by the execution sandbox",
+  "thread_environment": {
+    "OPENBLAS_NUM_THREADS": "1",
+    "OMP_NUM_THREADS": "1",
+    "MKL_NUM_THREADS": "1"
+  },
+  "source_sha256": {
+    "run_revision_experiments.py": "879c16c3f0de993a18238b105f69b14b70f7dce4040854853cd3fa26da95ee3a",
+    "ptc.py": "50960401c5aaf15a0dcacbf7a49ba77922fff3557fdeda5a7d925fd75cc3ddc4"
+  },
+  "synthetic_sizes": [
+    100,
+    500,
+    1000
+  ],
+  "models": [
+    "E",
+    "M"
+  ],
+  "methods": [
+    "DC",
+    "EC",
+    "CC",
+    "BC",
+    "PR",
+    "GC",
+    "SP",
+    "LPP",
+    "SGM",
+    "HSI",
+    "PTC",
+    "PTC_cost"
+  ],
+  "target": "linear steady response energy outside the clamped source",
+  "parameters_selected_before_results": true,
+  "top_k_ties": "fractional selection at the boundary, rtol=1e-10, atol=1e-12",
+  "preprocessing": "simple undirected binary, ecological weights >0.1, largest connected component by size, numeric raw-ID order",
+  "finite_checks": "three fixed source IDs on each real graph, at 1% and 0.5% perturbations",
+  "scope": "single deterministic setting per graph/model; no independent replicate confidence interval",
+  "retained_subset": {
+    "date": "2026-10-10",
+    "models": [
+      "E",
+      "M"
+    ],
+    "original_metadata": "cache/before_p_theory_only_20261010/code/results/response_metadata.json",
+    "original_metadata_sha256": "76dbbe6931d5f0cbc9830ad85cd82bcd4167816438881fb273a9531a93438422",
+    "action": "Select E/M rows without recomputing values; archive population-model simulations and retain its analytical treatment in the manuscript.",
+    "files": [
+      {
+        "file": "code/results/response_metrics.csv",
+        "original_rows": 1008,
+        "retained_rows": 672,
+        "excluded_rows": 336,
+        "original_sha256": "341ad44df1cdeb1b78426c211eebd9b975dab097b2a1aa2ff4017c40366fb902",
+        "current_sha256": "884184997e43d34082e7f8ae160ed2a37eb4e5e06e3b5a857e36e64cdbd50711",
+        "retained_values_unchanged": true
+      },
+      {
+        "file": "code/results/response_nodes.csv",
+        "original_rows": 11016,
+        "retained_rows": 7344,
+        "excluded_rows": 3672,
+        "original_sha256": "53cdc8f02a56c5d0833aeb3d957ddac3ca751af00bed33e26eb393a20f35eb71",
+        "current_sha256": "9e3ee03e444e00c52da0514d50db29b6bcf618f899a477152f605ff0dbfe14ca",
+        "retained_values_unchanged": true
+      },
+      {
+        "file": "code/results/equilibria.csv",
+        "original_rows": 42,
+        "retained_rows": 28,
+        "excluded_rows": 14,
+        "original_sha256": "d674a66dd60f142016e3358561e9dcf96034412c022a012f4e0b3155c6bebdd0",
+        "current_sha256": "46d021db65c39c884d23615932acb74a16645db25f9bd6a7e992386c2bb6cfce",
+        "retained_values_unchanged": true
+      },
+      {
+        "file": "code/results/finite_perturbation_checks.csv",
+        "original_rows": 144,
+        "retained_rows": 96,
+        "excluded_rows": 48,
+        "original_sha256": "1520d260736870113e4be1a3c76dd4e8c804d0f83895557b3fda354d4f712e5d",
+        "current_sha256": "5b701d168502c6a5c33e45b8bced13705718e265d60835dba86af0c98eb08a0b",
+        "retained_values_unchanged": true
+      }
+    ]
+  }
+}

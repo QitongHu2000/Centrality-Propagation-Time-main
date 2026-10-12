@@ -1,0 +1,12 @@
+{
+  "status": "passed",
+  "model": "E",
+  "network": "karate",
+  "source": 0,
+  "max_absolute_error": 0.0,
+  "generated_parameter_columns": [
+    "40",
+    "70",
+    "100"
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "figure": "figure_4",
+  "entrypoint": "plot.py",
+  "inputs": {
+    "results/finite_time/E_dolphins_100.npz": "fa4a80910193c725cbc9afd426f3aae3046f39325b2af4c49f3c0927ec7f5371",
+    "results/finite_time/E_dolphins_40.npz": "6c0bd3297ab3a2aacfe2647b91d4869d548a42e2f31e627609bff6910ca917cd",
+    "results/finite_time/E_dolphins_70.npz": "9542bc052c08eb2ec56ca4bddfee76eb2aec10bc952a9ff2c708d3a5acf6451f",
+    "results/finite_time/E_football_100.npz": "f63963f1374b240b010fbccce9a1cb3e266361d2cac6aac261001ae16e50bcb5",
+    "results/finite_time/E_football_40.npz": "01d771f477a9755dab6d29f718ca120f09adbc270c5e798f9420bb5fab29ce8d",
+    "results/finite_time/E_football_70.npz": "3ec087a275a3a0a53cbe1de322c8235b6732c00c2ccbbea72448bb9bbb7eb914",
+    "results/finite_time/E_karate_100.npz": "03d4eb5780a1b0f64f92076d009b9f0423a869e6899c87ec41b4df89b2b6d52d",
+    "results/finite_time/E_karate_40.npz": "cdce0ebbac2ca4ff0dacc633644dfa31cde0eb32744ff84fb70967c6b30891d8",
+    "results/finite_time/E_karate_70.npz": "1365a3319c7299f01c64924e6525b2fdabdd838b14a58a085386c65b93d268e5",
+    "results/finite_time/E_polbooks_100.npz": "21e2607e354aba5d609c315572795666177d3ceee6479746b3944b183477a902",
+    "results/finite_time/E_polbooks_40.npz": "1f53557c1e6625762f07237f5330746ad87df84c68c112eacc5fbec0b94df365",
+    "results/finite_time/E_polbooks_70.npz": "53d02613cb082661c98990733d2964e1320c341d44959a7f672a6154f49990d7",
+    "results/finite_time/metrics.csv": "245892731cc5d93178be0e40e3a7cf77bea0318988eab36a88101181140dead0",
+    "results/finite_time/scores.csv": "15fe59935898e707af7bc68b7a7a13090f8d097f8732c472d0081fa4b81d5b89",
+    "results/finite_time_large/E_BA_1000_100.npz": "28583452965c84f51e1f2924ed7a7cf4a416593260d92f68ea00c69cad4e3676",
+    "results/finite_time_large/E_BA_1000_40.npz": "0e3e54b5714e061c7290e859647d3d8a6c7b98b342cc7e7584c2084f0a41b6de",
+    "results/finite_time_large/E_BA_1000_70.npz": "249738f4205c82977b79c5e82d82c0d0f9694be9a72a0f0fe33dcf8572f0e2d1",
+    "results/finite_time_large/E_WS_1000_100.npz": "ca0b7a13fd3e24d03cb40a2673a25ceb2fc1a0506346145d204fcbe607dabc7d",
+    "results/finite_time_large/E_WS_1000_40.npz": "6c10805df4d6fb97de3d94e1ba47275368cd9437be29a3feba3257a00d342be4",
+    "results/finite_time_large/E_WS_1000_70.npz": "0c2f2f7f39034b93bbe40687036d2ce1b3111344bd961198781a9f18d22954d7",
+    "results/finite_time_large/metrics.csv": "0e86ab0901ca31f2b70a2456b535f033b8a5d589d02d75db477439a7952c9b6b",
+    "results/finite_time_large/scores.csv": "73b46b8200bfad733336de047d1d6e99e8272bc9ab4dd9d28564fb8de72ce9f0",
+    "results/mechanism/working_points.csv": "67473e71b430f35d6266e38a4cbc19efb272a06441ed82bf8402fedbed582157"
+  },
+  "sources": {
+    "analyze_mechanisms.py": "c6f96eb98425489e899c143a158b4ae4e9d2849c7e344729dbe42f18a9c48f89",
+    "build_record.py": "7a670146705d8a1e9586b00cf0bcfc1306617f3a4816da9fc2a19db2017d6ef6",
+    "centrality.py": "a15ca454d0a074c8f8c65024cb19b073acff49fa8b543165fb9532a441fd7362",
+    "generate_data.py": "670c69ec603e3249bee38d36beefd2bf0a21b284e3fb601b51c6a38e3a3b1776",
+    "manuscript_assets.py": "ca89e911312936945704f21b163b98edbbb2f4d19594a345474846498f5df3ff",
+    "paths.py": "c2ddaf943c18a16df720ed2309072c5fcfabc72c190072523ca40e9e868399e8",
+    "plot.py": "a121cb9c17b333667b0b93a57219528341b6cdf06ac2cdd24796a39d628237fe",
+    "plot_finite_time.py": "c64f92d0a91435641e6564e0dea8f12ac8d6384a4653ec976bd79b72625834da",
+    "run_experiments.py": "606313d071dbd5c89a86842674a05cb4c4d183b118b0f25e36a9a54fe2af358c",
+    "run_finite_time.py": "818dad4bb54379b3d5c118bf864d009ff2a368892efc3a544292b29334e6a876",
+    "validate.py": "a70ce6530a533a5c4655f895f3bf3f2d04bd0649b501116901b9d2e9852b864c"
+  },
+  "outputs": {
+    "figure_4.pdf": "415c166b204dcb9f97034a72a2c5a1281692b0a39c2d051b00aabb6f237ebc8d",
+    "figure_4.png": "fc5a292d33e283fbc96d6129a59cef9fa7a73737a3cb2ec1cabaf98b3fed5276"
+  },
+  "scope": "All inputs and programs are local; plotting does not run simulations."
+}

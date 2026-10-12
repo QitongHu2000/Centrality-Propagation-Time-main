@@ -1,0 +1,18 @@
+{
+  "figure": "figure_2",
+  "entrypoint": "plot.py",
+  "inputs": {
+    "assets/original.pdf": "de674719c973e7fd568513d18bd590d5376e3596aeb482b8b03faa5063619e34"
+  },
+  "sources": {
+    "build_record.py": "7a670146705d8a1e9586b00cf0bcfc1306617f3a4816da9fc2a19db2017d6ef6",
+    "paths.py": "c8d8e8e7515a18af7039e1df6b54679f5ecfd9dac21be879555909041d234325",
+    "plot.py": "ffd7e6a00c8cb46f501edac9699538d939cfda308227f16339dda819d3235e53",
+    "validate.py": "077aaa7145360ecbd77c31669eb6fac4cd961db93b740e05c71cd7da87737ccb"
+  },
+  "outputs": {
+    "figure_2.pdf": "5267079a068eeba4b4b2d5eae2f855839c899f5e872a8fa4bbb5fa96cc5fd4ec",
+    "figure_2.png": "3322a2c74aa8c2d8077a406cca1cbb76b02604b61786b8710a69acf246fcc11e"
+  },
+  "scope": "All inputs and programs are local; plotting does not run simulations."
+}

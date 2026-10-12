@@ -1,0 +1,9 @@
+{
+  "status": "passed",
+  "figure": "figure_2",
+  "checks": [
+    "All local Python files parse",
+    "Build sources, inputs and outputs are local and match recorded hashes",
+    "Only the CC heading spelling changed; all other rendered pixels match"
+  ]
+}

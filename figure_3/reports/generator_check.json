@@ -1,0 +1,6 @@
+{
+  "status": "passed",
+  "entrypoint": "generate_data.py",
+  "score_rows": 316,
+  "result": "Regenerated all scores exactly from local raw networks"
+}

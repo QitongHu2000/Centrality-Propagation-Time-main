@@ -1,0 +1,595 @@
+{
+  "rule": "Four empirical and two 1,000-node networks by five settings: three B values at C=0.1 and three C values at B=0.2 share the reference (B,C)=(0.2,0.1).",
+  "panels": [
+    {
+      "model": "M",
+      "network": "everglades",
+      "parameters": "15_10"
+    },
+    {
+      "model": "M",
+      "network": "everglades",
+      "parameters": "20_10"
+    },
+    {
+      "model": "M",
+      "network": "everglades",
+      "parameters": "25_10"
+    },
+    {
+      "model": "M",
+      "network": "everglades",
+      "parameters": "20_5"
+    },
+    {
+      "model": "M",
+      "network": "everglades",
+      "parameters": "20_20"
+    },
+    {
+      "model": "M",
+      "network": "florida",
+      "parameters": "15_10"
+    },
+    {
+      "model": "M",
+      "network": "florida",
+      "parameters": "20_10"
+    },
+    {
+      "model": "M",
+      "network": "florida",
+      "parameters": "25_10"
+    },
+    {
+      "model": "M",
+      "network": "florida",
+      "parameters": "20_5"
+    },
+    {
+      "model": "M",
+      "network": "florida",
+      "parameters": "20_20"
+    },
+    {
+      "model": "M",
+      "network": "mangwet",
+      "parameters": "15_10"
+    },
+    {
+      "model": "M",
+      "network": "mangwet",
+      "parameters": "20_10"
+    },
+    {
+      "model": "M",
+      "network": "mangwet",
+      "parameters": "25_10"
+    },
+    {
+      "model": "M",
+      "network": "mangwet",
+      "parameters": "20_5"
+    },
+    {
+      "model": "M",
+      "network": "mangwet",
+      "parameters": "20_20"
+    },
+    {
+      "model": "M",
+      "network": "stmarks",
+      "parameters": "15_10"
+    },
+    {
+      "model": "M",
+      "network": "stmarks",
+      "parameters": "20_10"
+    },
+    {
+      "model": "M",
+      "network": "stmarks",
+      "parameters": "25_10"
+    },
+    {
+      "model": "M",
+      "network": "stmarks",
+      "parameters": "20_5"
+    },
+    {
+      "model": "M",
+      "network": "stmarks",
+      "parameters": "20_20"
+    },
+    {
+      "model": "M",
+      "network": "BA_1000",
+      "parameters": "15_10"
+    },
+    {
+      "model": "M",
+      "network": "BA_1000",
+      "parameters": "20_10"
+    },
+    {
+      "model": "M",
+      "network": "BA_1000",
+      "parameters": "25_10"
+    },
+    {
+      "model": "M",
+      "network": "BA_1000",
+      "parameters": "20_5"
+    },
+    {
+      "model": "M",
+      "network": "BA_1000",
+      "parameters": "20_20"
+    },
+    {
+      "model": "M",
+      "network": "WS_1000",
+      "parameters": "15_10"
+    },
+    {
+      "model": "M",
+      "network": "WS_1000",
+      "parameters": "20_10"
+    },
+    {
+      "model": "M",
+      "network": "WS_1000",
+      "parameters": "25_10"
+    },
+    {
+      "model": "M",
+      "network": "WS_1000",
+      "parameters": "20_5"
+    },
+    {
+      "model": "M",
+      "network": "WS_1000",
+      "parameters": "20_20"
+    }
+  ],
+  "reference_energies": [
+    {
+      "model": "M",
+      "network": "everglades",
+      "parameters": "20_10",
+      "ptc_energy": 0.01602270194087057,
+      "best_reference_energy": 0.004084949274877037,
+      "labels": [
+        "PTC/b: 0.01602 / 0.00408"
+      ]
+    },
+    {
+      "model": "M",
+      "network": "florida",
+      "parameters": "20_10",
+      "ptc_energy": 0.009969843195985238,
+      "best_reference_energy": 0.0026301450114405212,
+      "labels": [
+        "PTC/b: 0.00997 / 0.00263"
+      ]
+    },
+    {
+      "model": "M",
+      "network": "mangwet",
+      "parameters": "20_10",
+      "ptc_energy": 0.007848880403219238,
+      "best_reference_energy": 0.0046989705900317745,
+      "labels": [
+        "PTC/b: 0.00785 / 0.00470"
+      ]
+    },
+    {
+      "model": "M",
+      "network": "stmarks",
+      "parameters": "20_10",
+      "ptc_energy": 0.012897496753952898,
+      "best_reference_energy": 0.0013563873135866455,
+      "labels": [
+        "PTC/b: 0.01290 / 0.00136"
+      ]
+    },
+    {
+      "model": "M",
+      "network": "BA_1000",
+      "parameters": "20_10",
+      "ptc_energy": 0.013011361064131977,
+      "best_reference_energy": 0.00010187134118358906,
+      "labels": [
+        "PTC/b: 0.01301 / 0.00010"
+      ]
+    },
+    {
+      "model": "M",
+      "network": "WS_1000",
+      "parameters": "20_10",
+      "ptc_energy": 0.009368168661455768,
+      "best_reference_energy": 0.008835596122933756,
+      "labels": [
+        "PTC/b: 0.00937 / 0.00884"
+      ]
+    }
+  ],
+  "scan_panels": [
+    {
+      "model": "M",
+      "network": "everglades",
+      "parameters": "15_10",
+      "B": 0.15,
+      "C": 0.1,
+      "observation_time": 1.0,
+      "selection": "top10",
+      "ptc_rank": 1,
+      "gain_pct": 508.04543638124227
+    },
+    {
+      "model": "M",
+      "network": "everglades",
+      "parameters": "20_10",
+      "B": 0.2,
+      "C": 0.1,
+      "observation_time": 1.0,
+      "selection": "top10",
+      "ptc_rank": 1,
+      "gain_pct": 292.23747622552486
+    },
+    {
+      "model": "M",
+      "network": "everglades",
+      "parameters": "25_10",
+      "B": 0.25,
+      "C": 0.1,
+      "observation_time": 1.0,
+      "selection": "top10",
+      "ptc_rank": 1,
+      "gain_pct": 177.09821142652024
+    },
+    {
+      "model": "M",
+      "network": "everglades",
+      "parameters": "20_5",
+      "B": 0.2,
+      "C": 0.05,
+      "observation_time": 1.0,
+      "selection": "top10",
+      "ptc_rank": 1,
+      "gain_pct": 36.00850454293547
+    },
+    {
+      "model": "M",
+      "network": "everglades",
+      "parameters": "20_20",
+      "B": 0.2,
+      "C": 0.2,
+      "observation_time": 1.0,
+      "selection": "top10",
+      "ptc_rank": 1,
+      "gain_pct": 892.3872272995851
+    },
+    {
+      "model": "M",
+      "network": "florida",
+      "parameters": "15_10",
+      "B": 0.15,
+      "C": 0.1,
+      "observation_time": 2.0,
+      "selection": "top10",
+      "ptc_rank": 1,
+      "gain_pct": 487.4008401626436
+    },
+    {
+      "model": "M",
+      "network": "florida",
+      "parameters": "20_10",
+      "B": 0.2,
+      "C": 0.1,
+      "observation_time": 2.0,
+      "selection": "top10",
+      "ptc_rank": 1,
+      "gain_pct": 279.0605899149564
+    },
+    {
+      "model": "M",
+      "network": "florida",
+      "parameters": "25_10",
+      "B": 0.25,
+      "C": 0.1,
+      "observation_time": 2.0,
+      "selection": "top10",
+      "ptc_rank": 1,
+      "gain_pct": 172.87199644257106
+    },
+    {
+      "model": "M",
+      "network": "florida",
+      "parameters": "20_5",
+      "B": 0.2,
+      "C": 0.05,
+      "observation_time": 2.0,
+      "selection": "top10",
+      "ptc_rank": 1,
+      "gain_pct": 43.766816166990566
+    },
+    {
+      "model": "M",
+      "network": "florida",
+      "parameters": "20_20",
+      "B": 0.2,
+      "C": 0.2,
+      "observation_time": 2.0,
+      "selection": "top10",
+      "ptc_rank": 1,
+      "gain_pct": 881.0100326016848
+    },
+    {
+      "model": "M",
+      "network": "mangwet",
+      "parameters": "15_10",
+      "B": 0.15,
+      "C": 0.1,
+      "observation_time": 2.0,
+      "selection": "top10",
+      "ptc_rank": 1,
+      "gain_pct": 96.96846929186562
+    },
+    {
+      "model": "M",
+      "network": "mangwet",
+      "parameters": "20_10",
+      "B": 0.2,
+      "C": 0.1,
+      "observation_time": 2.0,
+      "selection": "top10",
+      "ptc_rank": 1,
+      "gain_pct": 67.0340397505268
+    },
+    {
+      "model": "M",
+      "network": "mangwet",
+      "parameters": "25_10",
+      "B": 0.25,
+      "C": 0.1,
+      "observation_time": 2.0,
+      "selection": "top10",
+      "ptc_rank": 1,
+      "gain_pct": 45.913076302034405
+    },
+    {
+      "model": "M",
+      "network": "mangwet",
+      "parameters": "20_5",
+      "B": 0.2,
+      "C": 0.05,
+      "observation_time": 2.0,
+      "selection": "top10",
+      "ptc_rank": 1,
+      "gain_pct": 8.182323615330223
+    },
+    {
+      "model": "M",
+      "network": "mangwet",
+      "parameters": "20_20",
+      "B": 0.2,
+      "C": 0.2,
+      "observation_time": 2.0,
+      "selection": "top10",
+      "ptc_rank": 1,
+      "gain_pct": 135.6426518463334
+    },
+    {
+      "model": "M",
+      "network": "stmarks",
+      "parameters": "15_10",
+      "B": 0.15,
+      "C": 0.1,
+      "observation_time": 2.0,
+      "selection": "top10",
+      "ptc_rank": 1,
+      "gain_pct": 1428.7767067821858
+    },
+    {
+      "model": "M",
+      "network": "stmarks",
+      "parameters": "20_10",
+      "B": 0.2,
+      "C": 0.1,
+      "observation_time": 2.0,
+      "selection": "top10",
+      "ptc_rank": 1,
+      "gain_pct": 850.871231598924
+    },
+    {
+      "model": "M",
+      "network": "stmarks",
+      "parameters": "25_10",
+      "B": 0.25,
+      "C": 0.1,
+      "observation_time": 2.0,
+      "selection": "top10",
+      "ptc_rank": 1,
+      "gain_pct": 546.8763393457018
+    },
+    {
+      "model": "M",
+      "network": "stmarks",
+      "parameters": "20_5",
+      "B": 0.2,
+      "C": 0.05,
+      "observation_time": 2.0,
+      "selection": "top10",
+      "ptc_rank": 1,
+      "gain_pct": 178.4001335188106
+    },
+    {
+      "model": "M",
+      "network": "stmarks",
+      "parameters": "20_20",
+      "B": 0.2,
+      "C": 0.2,
+      "observation_time": 2.0,
+      "selection": "top10",
+      "ptc_rank": 1,
+      "gain_pct": 2471.871589962104
+    },
+    {
+      "model": "M",
+      "network": "BA_1000",
+      "parameters": "15_10",
+      "B": 0.15,
+      "C": 0.1,
+      "observation_time": 2.0,
+      "selection": "top10",
+      "ptc_rank": 1,
+      "gain_pct": 22237.556952211035
+    },
+    {
+      "model": "M",
+      "network": "BA_1000",
+      "parameters": "20_10",
+      "B": 0.2,
+      "C": 0.1,
+      "observation_time": 2.0,
+      "selection": "top10",
+      "ptc_rank": 1,
+      "gain_pct": 12672.346876913443
+    },
+    {
+      "model": "M",
+      "network": "BA_1000",
+      "parameters": "25_10",
+      "B": 0.25,
+      "C": 0.1,
+      "observation_time": 2.0,
+      "selection": "top10",
+      "ptc_rank": 1,
+      "gain_pct": 7519.6370115986965
+    },
+    {
+      "model": "M",
+      "network": "BA_1000",
+      "parameters": "20_5",
+      "B": 0.2,
+      "C": 0.05,
+      "observation_time": 2.0,
+      "selection": "top10",
+      "ptc_rank": 1,
+      "gain_pct": 1877.4635507740772
+    },
+    {
+      "model": "M",
+      "network": "BA_1000",
+      "parameters": "20_20",
+      "B": 0.2,
+      "C": 0.2,
+      "observation_time": 2.0,
+      "selection": "top10",
+      "ptc_rank": 1,
+      "gain_pct": 38070.14481630926
+    },
+    {
+      "model": "M",
+      "network": "WS_1000",
+      "parameters": "15_10",
+      "B": 0.15,
+      "C": 0.1,
+      "observation_time": 2.0,
+      "selection": "top10",
+      "ptc_rank": 1,
+      "gain_pct": 8.610903714165353
+    },
+    {
+      "model": "M",
+      "network": "WS_1000",
+      "parameters": "20_10",
+      "B": 0.2,
+      "C": 0.1,
+      "observation_time": 2.0,
+      "selection": "top10",
+      "ptc_rank": 1,
+      "gain_pct": 6.027579023668372
+    },
+    {
+      "model": "M",
+      "network": "WS_1000",
+      "parameters": "25_10",
+      "B": 0.25,
+      "C": 0.1,
+      "observation_time": 2.0,
+      "selection": "top10",
+      "ptc_rank": 1,
+      "gain_pct": 3.5535583472435794
+    },
+    {
+      "model": "M",
+      "network": "WS_1000",
+      "parameters": "20_5",
+      "B": 0.2,
+      "C": 0.05,
+      "observation_time": 2.0,
+      "selection": "top10",
+      "ptc_rank": 3,
+      "gain_pct": -4.387436303999392
+    },
+    {
+      "model": "M",
+      "network": "WS_1000",
+      "parameters": "20_20",
+      "B": 0.2,
+      "C": 0.2,
+      "observation_time": 2.0,
+      "selection": "top10",
+      "ptc_rank": 1,
+      "gain_pct": 11.21864381410056
+    }
+  ],
+  "scan_encoding": "PTC method rank above gain G (%); columns match the upper curves in the same order.",
+  "curve_layout": {
+    "rows": 6,
+    "columns": 5,
+    "panel_width_inches": 1.5764516129032256,
+    "row_1_bounds": [
+      [
+        0.075,
+        0.8748958333333333,
+        0.14596774193548384,
+        0.06510416666666663
+      ],
+      [
+        0.26475806451612904,
+        0.8748958333333333,
+        0.14596774193548384,
+        0.06510416666666663
+      ],
+      [
+        0.454516129032258,
+        0.8748958333333333,
+        0.14596774193548379,
+        0.06510416666666663
+      ],
+      [
+        0.644274193548387,
+        0.8748958333333333,
+        0.1459677419354839,
+        0.06510416666666663
+      ],
+      [
+        0.8340322580645161,
+        0.8748958333333333,
+        0.1459677419354839,
+        0.06510416666666663
+      ]
+    ],
+    "column_gap_inches": 0.4729354838709681,
+    "legend": "One shared framed row below all six curve rows.",
+    "legend_frame": true
+  },
+  "scan_palette": "Figure 5 teal/green",
+  "model": "M",
+  "displayed_settings": 30,
+  "archived_empirical_scan_settings": 36,
+  "new_large_network_settings": 10
+}

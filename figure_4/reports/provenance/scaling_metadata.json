@@ -1,0 +1,35 @@
+{
+  "seed": 20260527,
+  "python": "3.13.9",
+  "numpy": "2.3.5",
+  "scipy": "1.16.3",
+  "networkx": "3.5",
+  "platform": "macOS-26.4-arm64-arm-64bit-Mach-O",
+  "processor_architecture": "arm64",
+  "cpu_model": "not exposed by the execution sandbox",
+  "thread_environment": {
+    "OPENBLAS_NUM_THREADS": "1",
+    "OMP_NUM_THREADS": "1",
+    "MKL_NUM_THREADS": "1"
+  },
+  "source_sha256": {
+    "run_revision_experiments.py": "eccd3e8223cdebdd3192872b5b3b47134a8a196058f952445c264c43df76d1ce",
+    "ptc.py": "4508436bb898a1ea0353a48518a7d92a86496ff0290e5c2f59e5c4f923732938"
+  },
+  "sizes": [
+    100,
+    500,
+    1000,
+    2000
+  ],
+  "repetitions": 3,
+  "methods": [
+    "PTC",
+    "CC",
+    "BC",
+    "SGM"
+  ],
+  "timing_scope": "ranking, graph generation excluded",
+  "memory_scope": "peak process RSS, includes Python interpreter, libraries and graph",
+  "per_case_timeout_seconds": 240
+}

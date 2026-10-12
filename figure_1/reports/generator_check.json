@@ -1,0 +1,8 @@
+{
+  "status": "passed",
+  "checks": "First and last saved bridge graphs reproduced from their seeds",
+  "seeds": [
+    20261005,
+    20261304
+  ]
+}

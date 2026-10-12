@@ -1,0 +1,11 @@
+{
+  "status": "passed",
+  "figure": "figure_6",
+  "checks": [
+    "All local Python files parse",
+    "Build sources, inputs and outputs are local and match recorded hashes",
+    "All eleven scores recomputed from local raw networks and node IDs",
+    "46 saved settings: eleven methods, top-10/top-5% energies and ranks",
+    "30 displayed settings agree with curve and rank panels"
+  ]
+}

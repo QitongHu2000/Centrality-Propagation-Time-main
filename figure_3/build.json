@@ -1,0 +1,28 @@
+{
+  "figure": "figure_3",
+  "entrypoint": "plot.py",
+  "inputs": {
+    "data/networks/dolphins.gml": "58ce901a69d090fbbc205f49878576ff138fc64036bad0a259cb1c2ddeb36325",
+    "data/networks/football.gml": "f5e02594da29e35edc2c662eae46900f0214384b5c781fad9e63e0f2765f9593",
+    "data/networks/karate.gml": "96452edc0e5fdfc1477b39eba7eff127bf12f0d6383ef3257c66fa51f40ea64f",
+    "data/networks/polbooks.gml": "871ca0ab472a049b653de83461dadbbcb2856e937c61c2f6da95d9600a06800e",
+    "dynamics_card.pdf": "04f1e4073afefbc3eb33f25383c52b2902719e1963b341e18d8db51377c86dac",
+    "results/finite_time/scores.csv": "15fe59935898e707af7bc68b7a7a13090f8d097f8732c472d0081fa4b81d5b89"
+  },
+  "sources": {
+    "build_record.py": "7a670146705d8a1e9586b00cf0bcfc1306617f3a4816da9fc2a19db2017d6ef6",
+    "centrality.py": "a15ca454d0a074c8f8c65024cb19b073acff49fa8b543165fb9532a441fd7362",
+    "generate_data.py": "dce1facce0ba2942c173c7a562e4a8bad7203a8e9103ac716e1554b739bff1b5",
+    "manuscript_assets.py": "ca89e911312936945704f21b163b98edbbb2f4d19594a345474846498f5df3ff",
+    "paths.py": "004189e1fe64d55e779e05cd4890f4c281f18a0f042893ad6c931a58340aa999",
+    "plot.py": "63dc5f5407a397fe870fc09479a7150c45a2b6ffec08d7b14fd43c033188b558",
+    "run_experiments.py": "606313d071dbd5c89a86842674a05cb4c4d183b118b0f25e36a9a54fe2af358c",
+    "run_finite_time.py": "818dad4bb54379b3d5c118bf864d009ff2a368892efc3a544292b29334e6a876",
+    "validate.py": "a70ce6530a533a5c4655f895f3bf3f2d04bd0649b501116901b9d2e9852b864c"
+  },
+  "outputs": {
+    "figure_3.pdf": "07a87ab1830903d2ebc266ff5546a4e1100a4cc1f1f5be2df1d41b706a60c55f",
+    "figure_3.png": "2a38630b13a439d2cb3969704af4b7af066b2ca6fa18ee19e5a7efb83c6e2b6f"
+  },
+  "scope": "All inputs and programs are local; plotting does not run simulations."
+}

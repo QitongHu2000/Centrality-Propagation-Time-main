@@ -1,0 +1,10 @@
+{
+  "status": "passed",
+  "checks": [
+    "HSI unique-route tree formula",
+    "HSI triangle same-layer formula",
+    "arbitrary HSI labels",
+    "LPP, BC, PTC relabeling invariance",
+    "finite and steady protocols have identical adjacency and raw-ID mapping"
+  ]
+}

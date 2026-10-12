@@ -1,0 +1,28 @@
+{
+  "figure": "figure_5",
+  "entrypoint": "plot.py",
+  "inputs": {
+    "data/networks/eco-everglades.edges": "b5e14ef8624b548463eeff469494ea4c8af654735e2d01007dfa7b09e75ce9dd",
+    "data/networks/eco-florida.edges": "2a639d7cca9c8c52284c95be9230533781f247ff65721a294ed506c120274b39",
+    "data/networks/eco-mangwet.edges": "07f5108ec10e7c2d888da89bbd06d467d28f0247eb0a4869951f157c422853ff",
+    "data/networks/eco-stmarks.edges": "e38e59d7940042b245f5b16817a4c03a368bff81f394bae68e5b8b99a7226ae7",
+    "dynamics_card.pdf": "2c42b6643c87b5e2de143d6cec92e4a20cf7285c5fffbae96ac8a857716b41ce",
+    "results/finite_time/scores.csv": "71475ccc35313332155595dd953824fe62a13a2abe0e6f758b00f4551297ac2c"
+  },
+  "sources": {
+    "build_record.py": "7a670146705d8a1e9586b00cf0bcfc1306617f3a4816da9fc2a19db2017d6ef6",
+    "centrality.py": "a15ca454d0a074c8f8c65024cb19b073acff49fa8b543165fb9532a441fd7362",
+    "generate_data.py": "dce1facce0ba2942c173c7a562e4a8bad7203a8e9103ac716e1554b739bff1b5",
+    "manuscript_assets.py": "ca89e911312936945704f21b163b98edbbb2f4d19594a345474846498f5df3ff",
+    "paths.py": "16ebc303b5940105ec58cdd2c2b93d443f7a11820e60ea5c250c5c42d583f8d0",
+    "plot.py": "b9904f4a0b83809f25f5e0f22358f595bde9de41fc1a9f2bf10b268fe276a978",
+    "run_experiments.py": "606313d071dbd5c89a86842674a05cb4c4d183b118b0f25e36a9a54fe2af358c",
+    "run_finite_time.py": "818dad4bb54379b3d5c118bf864d009ff2a368892efc3a544292b29334e6a876",
+    "validate.py": "a70ce6530a533a5c4655f895f3bf3f2d04bd0649b501116901b9d2e9852b864c"
+  },
+  "outputs": {
+    "figure_5.pdf": "6e430d7d0db9d22f3fe8be2635713b628f9a55b9bf99a9e13903693715a0d65d",
+    "figure_5.png": "cdc6d355c1a9ae533b4a8f15284412c063a5a4bb131f055ffb35ca4428c64164"
+  },
+  "scope": "All inputs and programs are local; plotting does not run simulations."
+}

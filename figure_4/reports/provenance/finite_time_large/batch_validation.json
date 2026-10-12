@@ -1,0 +1,14 @@
+[
+  {
+    "model": "E",
+    "network": "karate",
+    "max_scaled_error": 1.4984695592915212e-10,
+    "all_method_ranks_unchanged": true
+  },
+  {
+    "model": "M",
+    "network": "stmarks",
+    "max_scaled_error": 7.270002966092257e-08,
+    "all_method_ranks_unchanged": true
+  }
+]

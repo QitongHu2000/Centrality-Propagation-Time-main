@@ -1,0 +1,21 @@
+{
+  "figure": "figure_1",
+  "entrypoint": "plot.py",
+  "inputs": {
+    "assets/original.pdf": "cafe08ce2435a1392cf631a2e1181cb07c33ddb8bc4f5f20774c844f2f43dcd2"
+  },
+  "sources": {
+    "analyze_bridges.py": "b8cfaeb6e2266319cc03f1e0b828794eba8bdcb8514c06c9cda5859687bc16ea",
+    "build_record.py": "7a670146705d8a1e9586b00cf0bcfc1306617f3a4816da9fc2a19db2017d6ef6",
+    "centrality.py": "a15ca454d0a074c8f8c65024cb19b073acff49fa8b543165fb9532a441fd7362",
+    "generate_data.py": "852bea46391763991db67af72fd65b5024ab1a9be3c946c35fb664d695466d73",
+    "paths.py": "4d3c36b8be9b899c4cfb490b8ca8b971ed10201eaa5366e8f16a22d1404d2479",
+    "plot.py": "ffd7e6a00c8cb46f501edac9699538d939cfda308227f16339dda819d3235e53",
+    "validate.py": "077aaa7145360ecbd77c31669eb6fac4cd961db93b740e05c71cd7da87737ccb"
+  },
+  "outputs": {
+    "figure_1.pdf": "6c40f59f52457e07dc01953c71ce6184b8ebfcac4d63cd8ab1c1def69c269047",
+    "figure_1.png": "da00927f4ecaf24265c3a23940a3565733221259d1f48e6764abb27f458de5ed"
+  },
+  "scope": "All inputs and programs are local; plotting does not run simulations."
+}

@@ -1,0 +1,134 @@
+{
+  "E": {
+    "linear_steady": {
+      "cases": 4,
+      "top_three": 0,
+      "ranks": [
+        10,
+        8,
+        11,
+        11
+      ]
+    },
+    "original_finite": {
+      "cases": 4,
+      "top_three": 4,
+      "ranks": [
+        1,
+        3,
+        1,
+        1
+      ]
+    },
+    "positive_finite_1pct": {
+      "cases": 4,
+      "top_three": 0,
+      "ranks": [
+        10,
+        8,
+        11,
+        11
+      ]
+    },
+    "zero_finite_delta_0.001": {
+      "cases": 4,
+      "top_three": 4,
+      "ranks": [
+        1,
+        3,
+        1,
+        1
+      ]
+    }
+  },
+  "M": {
+    "linear_steady": {
+      "cases": 4,
+      "top_three": 4,
+      "ranks": [
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    "original_finite": {
+      "cases": 4,
+      "top_three": 4,
+      "ranks": [
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    "positive_finite_1pct": {
+      "cases": 4,
+      "top_three": 4,
+      "ranks": [
+        1,
+        1,
+        1,
+        1
+      ]
+    }
+  },
+  "time_horizon": [
+    {
+      "model": "E",
+      "time_fraction": 0.050505050505050504,
+      "top_three": 10,
+      "cases": 20,
+      "median_gain_pct": -3.464768634135723
+    },
+    {
+      "model": "E",
+      "time_fraction": 0.25252525252525254,
+      "top_three": 20,
+      "cases": 20,
+      "median_gain_pct": 0.06392346223793588
+    },
+    {
+      "model": "E",
+      "time_fraction": 0.5050505050505051,
+      "top_three": 20,
+      "cases": 20,
+      "median_gain_pct": 0.0639398091754173
+    },
+    {
+      "model": "E",
+      "time_fraction": 1.0,
+      "top_three": 20,
+      "cases": 20,
+      "median_gain_pct": 0.0639398094706034
+    },
+    {
+      "model": "M",
+      "time_fraction": 0.050505050505050504,
+      "top_three": 36,
+      "cases": 36,
+      "median_gain_pct": 791.6315395291326
+    },
+    {
+      "model": "M",
+      "time_fraction": 0.25252525252525254,
+      "top_three": 36,
+      "cases": 36,
+      "median_gain_pct": 430.3428717757518
+    },
+    {
+      "model": "M",
+      "time_fraction": 0.5050505050505051,
+      "top_three": 36,
+      "cases": 36,
+      "median_gain_pct": 355.93466262764696
+    },
+    {
+      "model": "M",
+      "time_fraction": 1.0,
+      "top_three": 36,
+      "cases": 36,
+      "median_gain_pct": 328.0714423444658
+    }
+  ]
+}

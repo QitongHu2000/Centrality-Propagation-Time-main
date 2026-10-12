@@ -1,0 +1,68 @@
+{
+  "seed": 20260527,
+  "python": "3.13.9",
+  "numpy": "2.3.5",
+  "scipy": "1.16.3",
+  "networkx": "3.5",
+  "platform": "macOS-26.4-arm64-arm-64bit-Mach-O",
+  "processor_architecture": "arm64",
+  "cpu_model": "not exposed by the execution sandbox",
+  "thread_environment": {
+    "OPENBLAS_NUM_THREADS": "1",
+    "OMP_NUM_THREADS": "1",
+    "MKL_NUM_THREADS": "1"
+  },
+  "source_sha256": {
+    "run_experiments.py": "a741d521f46773a081874536b1746d99a7db759dcc7772ea7cfbb1cbe0e167e3",
+    "centrality.py": "a15ca454d0a074c8f8c65024cb19b073acff49fa8b543165fb9532a441fd7362"
+  },
+  "graphs": [
+    {
+      "network": "BA_1000",
+      "family": "BA",
+      "seed": 20260527,
+      "n": 1000,
+      "m": 2991,
+      "adjacency_sha256": "1069ede161e735387182e13eb72396b4a8b7edaee2e270cfb7511940b8f92d7b",
+      "weighted": false
+    },
+    {
+      "network": "WS_1000",
+      "family": "WS",
+      "seed": 20260527,
+      "n": 1000,
+      "m": 3000,
+      "adjacency_sha256": "439f7953e2326636f58ed4d1400be81e2a65e4eef281e495ab1cafb2d4ee39ef",
+      "weighted": false
+    }
+  ],
+  "methods": [
+    "DC",
+    "EC",
+    "BC",
+    "CC",
+    "PR",
+    "GC",
+    "SP",
+    "LPP",
+    "SGM",
+    "HSI",
+    "PTC"
+  ],
+  "protocol": "Only displayed E/M parameter columns; original sustained source clamp, nonsource energy and fractional boundary ties",
+  "E": {
+    "initial": "zero",
+    "source_delta": 0.1,
+    "endpoint_time": 20.0
+  },
+  "M": {
+    "initial": "positive state reached from all-ones at t=1000",
+    "source_fraction": 0.3,
+    "endpoint_time": 2.0
+  },
+  "ode": "Independent columns integrated by sparse DOP853, rtol=2e-12, atol=2e-14; three fixed sources per setting verified independently by Radau at 2e-13/2e-15",
+  "baseline_solver": "BDF, rtol=1e-10, atol=1e-12, analytic sparse Jacobian",
+  "finite_time_source_sha256": "d84bf91d97fb4dd8cbf8b393313c8f2719f19d8fd365f64ed31985059242d138",
+  "settings": 16,
+  "source_trajectories": 16000
+}

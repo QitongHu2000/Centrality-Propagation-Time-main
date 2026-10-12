@@ -1,0 +1,14 @@
+{
+  "status": "passed",
+  "model": "M",
+  "network": "stmarks",
+  "source": 0,
+  "max_absolute_error": 0.0,
+  "generated_parameter_columns": [
+    "15_10",
+    "20_10",
+    "25_10",
+    "20_5",
+    "20_20"
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "note": "Filename suffixes preserve legacy truncation: 17_10 means B=0.175, C=0.1; 22_10 means B=0.225, C=0.1.",
+  "grid": {
+    "E": [
+      {
+        "suffix": "40",
+        "B": 0.4,
+        "C": null,
+        "alpha": 1
+      },
+      {
+        "suffix": "55",
+        "B": 0.55,
+        "C": null,
+        "alpha": 1
+      },
+      {
+        "suffix": "70",
+        "B": 0.7,
+        "C": null,
+        "alpha": 1
+      },
+      {
+        "suffix": "85",
+        "B": 0.85,
+        "C": null,
+        "alpha": 1
+      },
+      {
+        "suffix": "100",
+        "B": 1.0,
+        "C": null,
+        "alpha": 1
+      }
+    ],
+    "M": [
+      {
+        "suffix": "15_10",
+        "B": 0.15,
+        "C": 0.1,
+        "alpha": 1
+      },
+      {
+        "suffix": "17_10",
+        "B": 0.175,
+        "C": 0.1,
+        "alpha": 1
+      },
+      {
+        "suffix": "20_10",
+        "B": 0.2,
+        "C": 0.1,
+        "alpha": 1
+      },
+      {
+        "suffix": "22_10",
+        "B": 0.225,
+        "C": 0.1,
+        "alpha": 1
+      },
+      {
+        "suffix": "25_10",
+        "B": 0.25,
+        "C": 0.1,
+        "alpha": 1
+      },
+      {
+        "suffix": "20_5",
+        "B": 0.2,
+        "C": 0.05,
+        "alpha": 1
+      },
+      {
+        "suffix": "20_15",
+        "B": 0.2,
+        "C": 0.15000000000000002,
+        "alpha": 1
+      },
+      {
+        "suffix": "20_20",
+        "B": 0.2,
+        "C": 0.2,
+        "alpha": 1
+      },
+      {
+        "suffix": "20_25",
+        "B": 0.2,
+        "C": 0.25,
+        "alpha": 1
+      }
+    ]
+  }
+}

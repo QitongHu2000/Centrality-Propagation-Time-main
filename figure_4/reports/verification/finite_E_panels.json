@@ -1,0 +1,391 @@
+{
+  "rule": "Four empirical and two 1,000-node networks by three B values.",
+  "panels": [
+    {
+      "model": "E",
+      "network": "dolphins",
+      "parameters": "40"
+    },
+    {
+      "model": "E",
+      "network": "dolphins",
+      "parameters": "70"
+    },
+    {
+      "model": "E",
+      "network": "dolphins",
+      "parameters": "100"
+    },
+    {
+      "model": "E",
+      "network": "football",
+      "parameters": "40"
+    },
+    {
+      "model": "E",
+      "network": "football",
+      "parameters": "70"
+    },
+    {
+      "model": "E",
+      "network": "football",
+      "parameters": "100"
+    },
+    {
+      "model": "E",
+      "network": "karate",
+      "parameters": "40"
+    },
+    {
+      "model": "E",
+      "network": "karate",
+      "parameters": "70"
+    },
+    {
+      "model": "E",
+      "network": "karate",
+      "parameters": "100"
+    },
+    {
+      "model": "E",
+      "network": "polbooks",
+      "parameters": "40"
+    },
+    {
+      "model": "E",
+      "network": "polbooks",
+      "parameters": "70"
+    },
+    {
+      "model": "E",
+      "network": "polbooks",
+      "parameters": "100"
+    },
+    {
+      "model": "E",
+      "network": "BA_1000",
+      "parameters": "40"
+    },
+    {
+      "model": "E",
+      "network": "BA_1000",
+      "parameters": "70"
+    },
+    {
+      "model": "E",
+      "network": "BA_1000",
+      "parameters": "100"
+    },
+    {
+      "model": "E",
+      "network": "WS_1000",
+      "parameters": "40"
+    },
+    {
+      "model": "E",
+      "network": "WS_1000",
+      "parameters": "70"
+    },
+    {
+      "model": "E",
+      "network": "WS_1000",
+      "parameters": "100"
+    }
+  ],
+  "reference_energies": [
+    {
+      "model": "E",
+      "network": "dolphins",
+      "parameters": "100",
+      "ptc_energy": 3487.2387067763384,
+      "best_reference_energy": 3487.2387067763384,
+      "labels": [
+        "PTC/b: 3487.23871 / 3487.23871"
+      ]
+    },
+    {
+      "model": "E",
+      "network": "football",
+      "parameters": "100",
+      "ptc_energy": 9331.634457412663,
+      "best_reference_energy": 9332.060860282036,
+      "labels": [
+        "PTC/b: 9331.63446 / 9332.06086"
+      ]
+    },
+    {
+      "model": "E",
+      "network": "karate",
+      "parameters": "100",
+      "ptc_energy": 1767.0897701670178,
+      "best_reference_energy": 1718.4116159527161,
+      "labels": [
+        "PTC/b: 1767.08977 / 1718.41162"
+      ]
+    },
+    {
+      "model": "E",
+      "network": "polbooks",
+      "parameters": "100",
+      "ptc_energy": 7526.001022971746,
+      "best_reference_energy": 7503.408122847725,
+      "labels": [
+        "PTC/b: 7526.00102 / 7503.40812"
+      ]
+    },
+    {
+      "model": "E",
+      "network": "BA_1000",
+      "parameters": "100",
+      "ptc_energy": 62786.44591360368,
+      "best_reference_energy": 62502.04255878811,
+      "labels": [
+        "PTC/b: 62786.45 / 62502.04"
+      ]
+    },
+    {
+      "model": "E",
+      "network": "WS_1000",
+      "parameters": "100",
+      "ptc_energy": 69021.25035853118,
+      "best_reference_energy": 69017.53680415015,
+      "labels": [
+        "PTC/b: 69021.25 / 69017.54"
+      ]
+    }
+  ],
+  "scan_panels": [
+    {
+      "model": "E",
+      "network": "dolphins",
+      "parameters": "40",
+      "B": 0.4,
+      "C": 0.1,
+      "observation_time": 20.0,
+      "selection": "top10",
+      "ptc_rank": 1,
+      "gain_pct": 0.0
+    },
+    {
+      "model": "E",
+      "network": "dolphins",
+      "parameters": "70",
+      "B": 0.7,
+      "C": 0.1,
+      "observation_time": 20.0,
+      "selection": "top10",
+      "ptc_rank": 1,
+      "gain_pct": 0.0
+    },
+    {
+      "model": "E",
+      "network": "dolphins",
+      "parameters": "100",
+      "B": 1.0,
+      "C": 0.1,
+      "observation_time": 20.0,
+      "selection": "top10",
+      "ptc_rank": 1,
+      "gain_pct": 0.0
+    },
+    {
+      "model": "E",
+      "network": "football",
+      "parameters": "40",
+      "B": 0.4,
+      "C": 0.1,
+      "observation_time": 20.0,
+      "selection": "top10",
+      "ptc_rank": 3,
+      "gain_pct": -0.0023075004934591803
+    },
+    {
+      "model": "E",
+      "network": "football",
+      "parameters": "70",
+      "B": 0.7,
+      "C": 0.1,
+      "observation_time": 20.0,
+      "selection": "top10",
+      "ptc_rank": 3,
+      "gain_pct": -0.003628258800436601
+    },
+    {
+      "model": "E",
+      "network": "football",
+      "parameters": "100",
+      "B": 1.0,
+      "C": 0.1,
+      "observation_time": 20.0,
+      "selection": "top10",
+      "ptc_rank": 3,
+      "gain_pct": -0.004569225123540743
+    },
+    {
+      "model": "E",
+      "network": "karate",
+      "parameters": "40",
+      "B": 0.4,
+      "C": 0.1,
+      "observation_time": 20.0,
+      "selection": "top10",
+      "ptc_rank": 1,
+      "gain_pct": 1.4790329925943757
+    },
+    {
+      "model": "E",
+      "network": "karate",
+      "parameters": "70",
+      "B": 0.7,
+      "C": 0.1,
+      "observation_time": 20.0,
+      "selection": "top10",
+      "ptc_rank": 1,
+      "gain_pct": 2.2223683796986693
+    },
+    {
+      "model": "E",
+      "network": "karate",
+      "parameters": "100",
+      "B": 1.0,
+      "C": 0.1,
+      "observation_time": 20.0,
+      "selection": "top10",
+      "ptc_rank": 1,
+      "gain_pct": 2.8327412223242865
+    },
+    {
+      "model": "E",
+      "network": "polbooks",
+      "parameters": "40",
+      "B": 0.4,
+      "C": 0.1,
+      "observation_time": 20.0,
+      "selection": "top10",
+      "ptc_rank": 1,
+      "gain_pct": 0.1278796189412068
+    },
+    {
+      "model": "E",
+      "network": "polbooks",
+      "parameters": "70",
+      "B": 0.7,
+      "C": 0.1,
+      "observation_time": 20.0,
+      "selection": "top10",
+      "ptc_rank": 1,
+      "gain_pct": 0.2158174460481055
+    },
+    {
+      "model": "E",
+      "network": "polbooks",
+      "parameters": "100",
+      "B": 1.0,
+      "C": 0.1,
+      "observation_time": 20.0,
+      "selection": "top10",
+      "ptc_rank": 1,
+      "gain_pct": 0.3011018427109935
+    },
+    {
+      "model": "E",
+      "network": "BA_1000",
+      "parameters": "40",
+      "B": 0.4,
+      "C": 0.1,
+      "observation_time": 20.0,
+      "selection": "top10",
+      "ptc_rank": 1,
+      "gain_pct": 0.1897677607451298
+    },
+    {
+      "model": "E",
+      "network": "BA_1000",
+      "parameters": "70",
+      "B": 0.7,
+      "C": 0.1,
+      "observation_time": 20.0,
+      "selection": "top10",
+      "ptc_rank": 1,
+      "gain_pct": 0.3227517448469053
+    },
+    {
+      "model": "E",
+      "network": "BA_1000",
+      "parameters": "100",
+      "B": 1.0,
+      "C": 0.1,
+      "observation_time": 20.0,
+      "selection": "top10",
+      "ptc_rank": 1,
+      "gain_pct": 0.455030496880271
+    },
+    {
+      "model": "E",
+      "network": "WS_1000",
+      "parameters": "40",
+      "B": 0.4,
+      "C": 0.1,
+      "observation_time": 20.0,
+      "selection": "top10",
+      "ptc_rank": 1,
+      "gain_pct": 0.002154657728770104
+    },
+    {
+      "model": "E",
+      "network": "WS_1000",
+      "parameters": "70",
+      "B": 0.7,
+      "C": 0.1,
+      "observation_time": 20.0,
+      "selection": "top10",
+      "ptc_rank": 1,
+      "gain_pct": 0.003750395255264216
+    },
+    {
+      "model": "E",
+      "network": "WS_1000",
+      "parameters": "100",
+      "B": 1.0,
+      "C": 0.1,
+      "observation_time": 20.0,
+      "selection": "top10",
+      "ptc_rank": 1,
+      "gain_pct": 0.005380595357329376
+    }
+  ],
+  "scan_encoding": "PTC method rank above gain G (%); columns match the upper curves in the same order.",
+  "curve_layout": {
+    "rows": 6,
+    "columns": 3,
+    "panel_width_inches": 1.5764516129032262,
+    "row_1_bounds": [
+      [
+        0.1917741935483871,
+        0.8748958333333333,
+        0.1459677419354839,
+        0.06510416666666663
+      ],
+      [
+        0.4545161290322581,
+        0.8748958333333333,
+        0.14596774193548384,
+        0.06510416666666663
+      ],
+      [
+        0.7172580645161291,
+        0.8748958333333333,
+        0.1459677419354839,
+        0.06510416666666663
+      ]
+    ],
+    "column_gap_inches": 1.2611612903225806,
+    "legend": "One shared framed row below all six curve rows.",
+    "legend_frame": true
+  },
+  "scan_palette": "Figure 3 ochre/brown",
+  "model": "E",
+  "displayed_settings": 18,
+  "archived_empirical_scan_settings": 20,
+  "new_large_network_settings": 6
+}

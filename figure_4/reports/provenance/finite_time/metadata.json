@@ -1,0 +1,112 @@
+{
+  "seed": 20260527,
+  "python": "3.13.9",
+  "numpy": "2.3.5",
+  "scipy": "1.16.3",
+  "networkx": "3.5",
+  "platform": "macOS-26.4-arm64-arm-64bit-Mach-O",
+  "processor_architecture": "arm64",
+  "cpu_model": "not exposed by the execution sandbox",
+  "thread_environment": {
+    "OPENBLAS_NUM_THREADS": "1",
+    "OMP_NUM_THREADS": "1",
+    "MKL_NUM_THREADS": "1"
+  },
+  "source_sha256": {
+    "run_revision_experiments.py": "879c16c3f0de993a18238b105f69b14b70f7dce4040854853cd3fa26da95ee3a",
+    "ptc.py": "50960401c5aaf15a0dcacbf7a49ba77922fff3557fdeda5a7d925fd75cc3ddc4"
+  },
+  "graphs": [
+    {
+      "network": "dolphins",
+      "input": "code/Networks/dolphins.gml",
+      "input_sha256": "58ce901a69d090fbbc205f49878576ff138fc64036bad0a259cb1c2ddeb36325",
+      "adjacency_sha256": "dc8d0e526e5b3b41217b43840d247fef6de9e896380ed0bd9aaa80767183f2e9",
+      "weighted": false,
+      "n": 62,
+      "m": 159
+    },
+    {
+      "network": "football",
+      "input": "code/Networks/football.gml",
+      "input_sha256": "f5e02594da29e35edc2c662eae46900f0214384b5c781fad9e63e0f2765f9593",
+      "adjacency_sha256": "6eca3fae68fe37af4fca64cbcbaaf8eb22382ad8d6876c5666cc78bd884942ff",
+      "weighted": false,
+      "n": 115,
+      "m": 613
+    },
+    {
+      "network": "karate",
+      "input": "code/Networks/karate.gml",
+      "input_sha256": "96452edc0e5fdfc1477b39eba7eff127bf12f0d6383ef3257c66fa51f40ea64f",
+      "adjacency_sha256": "4250ab82d25993234270c31813b29c372101c3fbe3a9f16220ff005fb05cd4f5",
+      "weighted": false,
+      "n": 34,
+      "m": 78
+    },
+    {
+      "network": "polbooks",
+      "input": "code/Networks/polbooks.gml",
+      "input_sha256": "871ca0ab472a049b653de83461dadbbcb2856e937c61c2f6da95d9600a06800e",
+      "adjacency_sha256": "02b752410bede2389a77de89f4dcba475eac3f3f89a38cbe397e3bca48ffc0d9",
+      "weighted": false,
+      "n": 105,
+      "m": 441
+    },
+    {
+      "network": "everglades",
+      "input": "code/Networks/eco-everglades.edges",
+      "input_sha256": "b5e14ef8624b548463eeff469494ea4c8af654735e2d01007dfa7b09e75ce9dd",
+      "adjacency_sha256": "f483b0390d0fefebdd30450c714558d42a8f3b72248ed78253afd58e4824aaf5",
+      "weighted": false,
+      "n": 30,
+      "m": 101
+    },
+    {
+      "network": "florida",
+      "input": "code/Networks/eco-florida.edges",
+      "input_sha256": "2a639d7cca9c8c52284c95be9230533781f247ff65721a294ed506c120274b39",
+      "adjacency_sha256": "b332ee46c4e0108153eb133432a5c897782596377cdf0c4c0335b9ae2be29220",
+      "weighted": false,
+      "n": 48,
+      "m": 171
+    },
+    {
+      "network": "mangwet",
+      "input": "code/Networks/eco-mangwet.edges",
+      "input_sha256": "07f5108ec10e7c2d888da89bbd06d467d28f0247eb0a4869951f157c422853ff",
+      "adjacency_sha256": "c7cdc9880f11f5be616c3c3809401a5ca0286d5e2e2d536482dfe466dd7c96c7",
+      "weighted": false,
+      "n": 27,
+      "m": 93
+    },
+    {
+      "network": "stmarks",
+      "input": "code/Networks/eco-stmarks.edges",
+      "input_sha256": "e38e59d7940042b245f5b16817a4c03a368bff81f394bae68e5b8b99a7226ae7",
+      "adjacency_sha256": "d5033b68c7373670c6bb53ee31aa824396f918d1b72125e1ef48b594f9c182d2",
+      "weighted": false,
+      "n": 51,
+      "m": 229
+    }
+  ],
+  "methods": [
+    "DC",
+    "EC",
+    "BC",
+    "CC",
+    "PR",
+    "GC",
+    "SP",
+    "LPP",
+    "SGM",
+    "HSI",
+    "PTC"
+  ],
+  "hsi_beta": "<k>/(<k^2>-<k>), fixed before looking at labels; sensitivity at 0.5 and 1.5 times this",
+  "primary_graph_convention": "undirected binary, loops removed, largest component by node count, sorted raw IDs",
+  "ode": "LSODA, rtol=1e-10, atol=1e-12; DOP853 verification at rtol=2e-12, atol=2e-14",
+  "selection": "fractional boundary ties, rtol=1e-10 and atol=1e-12",
+  "method_rank_ties": "rtol=1e-8 and atol=1e-10 on mean energy",
+  "finite_time_source_sha256": "ea1954bb8ebf230bb44481f9d268640ab636021e3a6a887f4259cf62128b3770"
+}

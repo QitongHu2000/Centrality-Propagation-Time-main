@@ -1,0 +1,72 @@
+{
+  "seed_start": 20261005,
+  "realizations": 300,
+  "n": 100,
+  "scope": "new seeded cohort; original unsaved graphs cannot be recovered",
+  "rank_convention": "average ranks for tied scores",
+  "statistics": {
+    "PTC": {
+      "mean": 9.776666666666667,
+      "median": 2.0,
+      "p90": 39.666666666666664,
+      "maximum": 79.33333333333333
+    },
+    "cost_only": {
+      "mean": 8.597777777777777,
+      "median": 2.0,
+      "p90": 31.70000000000001,
+      "maximum": 79.66666666666667
+    },
+    "CC": {
+      "mean": 20.79361111111111,
+      "median": 8.083333333333332,
+      "p90": 58.51666666666679,
+      "maximum": 80.16666666666667
+    },
+    "BC": {
+      "mean": 1.7516666666666667,
+      "median": 1.5,
+      "p90": 2.0,
+      "maximum": 2.6666666666666665
+    }
+  },
+  "ptc_spearman_with": {
+    "imbalance": 0.5333816399553438,
+    "mean_anchor_degree": -0.3104507033217583,
+    "CC": 0.619077768988622,
+    "cost_only": 0.9558879060727767
+  },
+  "worst_case": {
+    "seed": 20261027,
+    "n_left": 79,
+    "n_right": 18,
+    "bridge_count": 3,
+    "p_left": 0.39245168008924924,
+    "p_right": 0.20677354520195956,
+    "links_left": 3,
+    "links_right": 3,
+    "imbalance": 0.6288659793814433,
+    "mean_anchor_degree": 15.357142857142858,
+    "PTC": 79.33333333333333,
+    "cost_only": 79.66666666666667,
+    "CC": 80.16666666666667,
+    "BC": 2.0
+  },
+  "median_case": {
+    "seed": 20261006,
+    "n_left": 68,
+    "n_right": 29,
+    "bridge_count": 3,
+    "p_left": 0.26448503101156795,
+    "p_right": 0.3988588887058415,
+    "links_left": 4,
+    "links_right": 3,
+    "imbalance": 0.4020618556701031,
+    "mean_anchor_degree": 13.105263157894736,
+    "PTC": 2.0,
+    "cost_only": 2.0,
+    "CC": 12.5,
+    "BC": 2.0
+  },
+  "ptc_worse_than_cost_only": 77
+}
